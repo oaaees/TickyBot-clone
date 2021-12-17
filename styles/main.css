@@ -1,5 +1,6 @@
 * {
 	margin: 0;
+	padding: 0;
 }
 
 h1, h2, h3 {
@@ -18,9 +19,9 @@ body {
 	background-color: white;
 	border-radius: 5px;
 	max-width: 200px;
-    align-self: center;
-    padding: 1rem 2.5rem;
-    color: #3f3f3f;
+  align-self: center;
+  padding: 1rem 2.5rem;
+  color: #3f3f3f;
 
 	display: flex;
 	flex-direction: row;
@@ -40,6 +41,7 @@ body {
 .section_title {
 	font-size: 2.5rem;
 	text-align: center;
+	padding-bottom: 1rem;
 }
 
 h2.section_title::after {
@@ -59,7 +61,7 @@ header {
 }
 
 .navbar {
-	padding: 1rem 0;
+	padding: 1rem;
 }
 
 .navbar ul {
@@ -71,6 +73,11 @@ header {
 }
 
 .navbar ul li {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+
 	list-style: none;
 }
 
@@ -234,19 +241,43 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
+	.navbar ul li {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		justify-content: center;
+	}
+
 	#home .container {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 	}
 
+	#home .container svg {
+		width: 80vw;
+	}
+
+	#home .container .home-text{
+		padding: 0;
+	}
+
+	#about {
+		padding: 2rem 1rem;
+	}
+
 	#about .description {
 		display: flex;
 		flex-direction: column;
+		gap: 1rem;
 	}
 
 	#about .description p {
 		margin: 1rem 0;
+	}
+
+	#features {
+		padding: 2rem 0rem;
 	}
 
 	#features .description {
@@ -254,11 +285,15 @@ footer a {
 		flex-direction: column;
 	}
 
+	#features .description .feature {
+		margin: 1rem;
+	}
+
 	#features img {
 		padding: 10vh 20vw;
 	}
 
 	#end {
-		padding: 3rem 20vw;
+		padding: 1rem;
 	}
 }
