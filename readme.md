@@ -10,9 +10,9 @@ This is a simple clone of this [TickyBot webpage](http://tickybott.herokuapp.com
 
 I'm planning to also complete the extra (not required) steps that were recomended in the [Chingu Guidelines](https://github.com/chingu-voyages/soloproject-tier1-tickybot-clone)
 
- [ ] Make the design fully responsive 
- [ ] Anticipate and handle any edge cases
- [ ] Use Accessibility techniques to improve the site for users with impairments
+- [ ] Make the design fully responsive 
+- [ ] Anticipate and handle any edge cases
+- [ ] Use Accessibility techniques to improve the site for users with impairments
 
 ##	Running The Project
 
