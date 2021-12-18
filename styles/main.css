@@ -7,6 +7,11 @@ h1, h2, h3 {
 	font-weight: 300;
 }
 
+strong {
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
 body {
 	font-family: 'Signika', sans-serif;
 	font-size: 1.2rem;
@@ -20,7 +25,7 @@ body {
 	border-radius: 5px;
 	max-width: 200px;
   align-self: center;
-  padding: 1rem 2.5rem;
+  padding: 1rem 3rem;
   color: #3f3f3f;
 
 	display: flex;
