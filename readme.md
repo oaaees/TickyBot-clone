@@ -16,4 +16,4 @@ I'm planning to also complete the extra (not required) steps that were recomende
 
 ##	Running The Project
 
-You can download the files and open `index.html` in your preferred web browser, or alternatively you can visit [oaaees.github.io/Tickybot-clone](oaaees.github.io/Tickybot-clone) where it is hosted by Github Pages.
+You can download the files and open `index.html` in your preferred web browser, or alternatively you can visit [Tickybot-clone](https://oaaees.github.io/TickyBot-clone/) where it is hosted by Github Pages.
