@@ -1,5 +1,7 @@
 #	TickyBot Website Clone
 
+![Website Preview](/assets/screenshot.PNG)
+
 ##	Overview
 
 I started this project to fulfill one of the requirements to apply to [Chingu.io](https://chingu.io/), a place to gain experience as a web developer. Through this project I can certify the knowledge in HTML, CSS and Javascript needed to start in this voyage!
@@ -10,7 +12,7 @@ This is a simple clone of this [TickyBot webpage](http://tickybott.herokuapp.com
 
 I'm planning to also complete the extra (not required) steps that were recomended in the [Chingu Guidelines](https://github.com/chingu-voyages/soloproject-tier1-tickybot-clone)
 
-- [ ] Make the design fully responsive 
+- [x] Make the design responsive 
 - [ ] Anticipate and handle any edge cases
 - [ ] Use Accessibility techniques to improve the site for users with impairments
 
